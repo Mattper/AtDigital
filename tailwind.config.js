@@ -26,7 +26,8 @@ module.exports = {
     //Fonts
     fontFamily:{
       Poppins: ["Poppins", "Latin"],
-      Inter: ["Inter", "Sans"]
+      Inter: ["Inter", "Sans"],
+      Lato: ["Lato", "Sans"]
     }
   },
   plugins: [],

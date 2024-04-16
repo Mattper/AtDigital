@@ -22,7 +22,7 @@ export const Navbar = () => {
           </button>
           {/* Navlinks */}
           {open && 
-            <div className='absolute z-20 top-0 left-0 right-[-100%] w-screen h-screen py-4 px-5 bg-Text_white'>
+            <div className='absolute z-20 top-0 left-0 w-screen h-screen py-4 px-5 bg-Text_white'>
               <button onClick={(() => setOpen(!open))} className='absolute right-5'>
                 <IoCloseSharp className='w-[30px] h-[30px] text-Text relative' />
               </button>

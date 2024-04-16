@@ -9,8 +9,8 @@ export const Footer = () => {
 
             {/* Logo & About */}
             <div className='flex flex-col gap-5 items-start md:w-[413px]'>
-                <img src="./White_Logo.png" alt="AT DIGITAL Logo" className='h-[25px]' />
-                <p className='text-base/[19.2px]'>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
+                <img src="./White_Logo.png" alt="AT DIGITAL Logo" className='' />
+                <p className='text-base/[19.2px] font-Lato'>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
             </div>
 
             {/* Tech & Services */}

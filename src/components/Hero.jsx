@@ -6,7 +6,7 @@ const Hero = () => {
 
         {/* Image Container */}
         <div className='bg-[#d9d9d9]'>
-          <img src="./Hero.jpeg" alt="HeroImage" className=' w-[462px] h-[327px] md:w-[946.56px] md:h-[670.72px] lg:w-[1479px] lg:h-[1048px] xl:w-[1440px] xl:h-[763px] object-cover' loading='lazy'/>
+          <img src="./Hero.jpeg" alt="HeroImage" className=' w-[462px] h-[327px] md:w-[946.56px] md:h-[670.72px] lg:w-[1200px] lg:h-[700px] xl:w-[1440px] xl:h-[763px] object-cover' loading='lazy'/>
         </div>
         
         {/* Text Container */}

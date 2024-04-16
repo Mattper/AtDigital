@@ -15,7 +15,7 @@ const Accordion = ({question, answer}) => {
         </button>
 
         {/* Answer Container */}
-        <div className={`grid overflow-hidden transition-all duration-500 ease-in-out ${open? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
+        <div className={`grid overflow-hidden transition-all duration-300 ease-out ${open? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
             <p className={`text-[16px]/[30px] overflow-hidden ${open? 'text-[#6f6c90]' : ''}`}>{answer}</p>
         </div>
     </div>
