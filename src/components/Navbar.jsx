@@ -5,7 +5,7 @@ export const Navbar = () => {
   const [open, setOpen] =useState(false);
 
   return (
-    <header className='h-[77px] w-full flex items-center justify-between text-Text_white font-Inter font-medium text-[14px]/[17px] py-[26px] px-5 md:px-10 bg-Primary'>
+    <header className='absolute top-0 z-50 w-[375px] md:w-[768px] lg:w-[1200px] xl:w-[1440px] flex items-center justify-between text-Text_white font-Inter font-medium text-[14px]/[17px] py-[26px] px-5 md:px-10 bg-Primary'>
         {/* logo */}
         <img src="./White_Logo.png" alt="AtDigitalLogo" className='' />
         <div className='gap-7 hidden md:flex'>

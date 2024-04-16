@@ -2,11 +2,16 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='absolute top-[77px]'>
+    <div className='absolute'>
 
         {/* Image Container */}
-        <div className='bg-[#d9d9d9]'>
-          <img src="./Hero.jpeg" alt="HeroImage" className=' w-[462px] h-[327px] md:w-[946.56px] md:h-[670.72px] lg:w-[1200px] lg:h-[700px] xl:w-[1440px] xl:h-[763px] object-cover' loading='lazy'/>
+        <div className='relative top-[77px] bg-[#d9d9d9] md:w-[768px] md:h-[448px] w-[375px] h-[218.75px] lg:w-[1200px] lg:h-[700px] xl:w-[1440px] xl-h[700px]'>
+          <img src="./Hero.jpeg" alt="HeroImage" className=' absolute w-[462px] h-[327px] -top-[106px]
+                                                                      md:w-[946px] md:h-[670px] md:-top-[215px]
+                                                                      lg:w-[1479px] lg:h-[1048px] lg:-top-[336px]
+                                                                      xl:w-[1440px] xl:h-[763px] xl:-top-[40px] 
+                                                                      object-cover' loading='lazy'
+          />
         </div>
         
         {/* Text Container */}
