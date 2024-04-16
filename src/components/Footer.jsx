@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <footer className='absolute top-[2744px] lg:top-[2183px] md:top-[2088px] xl:top-[2319px] w-full bg-Primary pt-10 p-5 md:px-10 lg:px-[60px] xl:px-20 text-Text_white flex flex-col gap-10'>
+    <footer className='absolute top-[2744px] lg:top-[2183px] md:top-[2088px] xl:top-[2319px] w-[375px] md:w-[768px] lg:w-[1200px] xl:w-[1440px] bg-Primary pt-10 p-5 md:px-10 lg:px-[60px] xl:px-20 text-Text_white flex flex-col gap-10'>
 
         {/* Main Container */}
         <div className='flex flex-col gap-10 lg:flex-row lg:gap-28 lg:justify-between'>
